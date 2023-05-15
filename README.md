@@ -6,7 +6,12 @@ Files
 The repository includes the following files:
 
 MileStone2
-    - Hallucination_Classification.ipynb: This Jupyter Notebook contains the code for training a Hallucination classifier using the Roberta-base model. This serves as a Basseline for future Models
+    
+    -Hallucination_Classification.ipynb: This Jupyter Notebook contains the code for training a Hallucination classifier using the Roberta-base model. This serves as a Basseline for future Models
+     
+    -BEGIN_Classifier_Roberta_Sequence.ipynb: This Jupyter Notebook contains the code for training a classifier using the Roberta-base model to classify BEGIN embeddings in the  dataset.
+            
+    -VRM_Classifier_Roberta_Sequence.ipynb: This Jupyter Notebook contains the code for training a classifier using the Roberta-base model to classify VRM embeddings in the  dataset.
 
 
 MileStone3
@@ -23,20 +28,19 @@ MileStone3
         - Hallucination_Classification_Focal_Loss.ipynb: TThis Jupyter Notebook contains the code for training a Hallucination classifier using the Roberta-base model trained on Augmented data and uses Focal Loss
     
     -Task 2
-        -BEGIN_Classifier_Roberta_Sequence.ipynb: This Jupyter Notebook contains the code for training a classifier using the Roberta-base model to classify BEGIN embeddings in the  dataset.
+        -BEGIN_Classifier_bert_base_uncased.ipynb: This Jupyter Notebook contains the code for training a classifier using the bert-base-uncased model to classify BEGIN embeddings in the dataset.
 
-    -BEGIN_Classifier_bert_base_uncased.ipynb: This Jupyter Notebook contains the code for training a classifier using the bert-base-uncased model to classify BEGIN embeddings in the dataset.
+        -BEGIN_Classifier_testing.ipynb: This Jupyter Notebook contains the code for testing the trained BEGIN classifier and evaluating its performance.
 
-    -BEGIN_Classifier_testing.ipynb: This Jupyter Notebook contains the code for testing the trained BEGIN classifier and evaluating its performance.
+        -VRM_Classifier_bert_base_cased.ipynb: This Jupyter Notebook contains the code for training a classifier using the bert-base-cased model to classify VRM embeddings in the  dataset.
+        
+        -VRM_Classifier_Testing.ipynb: This Jupyter Notebook contains the code for testing the trained VRM classifier and evaluating its performance.
 
-    -DialogueGenerationV2.ipynb: This Jupyter Notebook contains the code for training a dialogue generation model using the T5-base model.
-
-    -VRM_Classifier_Roberta_Sequence.ipynb: This Jupyter Notebook contains the code for training a classifier using the Roberta-base model to classify VRM embeddings in the  dataset.
-
-    -VRM_Classifier_bert_base_cased.ipynb: This Jupyter Notebook contains the code for training a classifier using the bert-base-cased model to classify VRM embeddings in the  dataset.
     
     - Task 3
-            -DialogueGenrationV2_Focal_Loss.ipynb: This Jupyter Notebook contains the code for training a dialogue generation model using the T5-base model and uses Focal Loss
+        -DialogueGenerationV2.ipynb: This Jupyter Notebook contains the code for training a dialogue generation model using the T5-base model.
+
+        -DialogueGenrationV2_Focal_Loss.ipynb: This Jupyter Notebook contains the code for training a dialogue generation model using the T5-base model and uses Focal Loss
 
 
 
