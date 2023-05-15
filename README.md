@@ -21,6 +21,7 @@ MileStone3
         - Hallucination_Classification_Dice_Loss.ipynb: This Jupyter Notebook contains the code for training a Hallucination classifier using the Roberta-base model trained the original data and uses Dice Loss. This model has oscillating loss and 0 F1 score.
 
         - Hallucination_Classification_Focal_Loss.ipynb: TThis Jupyter Notebook contains the code for training a Hallucination classifier using the Roberta-base model trained on Augmented data and uses Focal Loss
+    
     -Task 2
         -BEGIN_Classifier_Roberta_Sequence.ipynb: This Jupyter Notebook contains the code for training a classifier using the Roberta-base model to classify BEGIN embeddings in the  dataset.
 
@@ -33,9 +34,9 @@ MileStone3
     -VRM_Classifier_Roberta_Sequence.ipynb: This Jupyter Notebook contains the code for training a classifier using the Roberta-base model to classify VRM embeddings in the  dataset.
 
     -VRM_Classifier_bert_base_cased.ipynb: This Jupyter Notebook contains the code for training a classifier using the bert-base-cased model to classify VRM embeddings in the  dataset.
-    - Task 3
     
-        -DialogueGenrationV2_Focal_Loss.ipynb: This Jupyter Notebook contains the code for training a dialogue generation model using the T5-base model and uses Focal Loss
+    - Task 3
+            -DialogueGenrationV2_Focal_Loss.ipynb: This Jupyter Notebook contains the code for training a dialogue generation model using the T5-base model and uses Focal Loss
 
 
 
