@@ -5,6 +5,27 @@ Files
 
 The repository includes the following files:
 
+MileStone2
+    - Hallucination_Classification.ipynb: This Jupyter Notebook contains the code for training a Hallucination classifier using the Roberta-base model. This serves as a Basseline for future Models
+
+
+MileStone3
+
+    - Task1
+        -Data_Preprocessing_Dependency_Parsing_and_Classification.ipynb: This Jupyter Notebook contains the code for preprocessing data for dependency parsing and updating the augmented dataset. This model has oscillating loss and 0 F1 score.
+
+        - Hallucination_Classification_Cross_Entropy_Loss.ipynb: This Jupyter Notebook contains the code for training a Hallucination classifier using the Roberta-base model trained on Augmented data and uses hypertuned Cross Entropy Loss.
+
+        - Hallucination_Classification_Data_Augmentation.ipynb: This Jupyter Notebook contains the code for training a Hallucination classifier using the Roberta-base model trained on Augmented data.
+
+        - Hallucination_Classification_Dice_Loss.ipynb: This Jupyter Notebook contains the code for training a Hallucination classifier using the Roberta-base model trained the original data and uses Dice Loss. This model has oscillating loss and 0 F1 score.
+
+        - Hallucination_Classification_Focal_Loss.ipynb: TThis Jupyter Notebook contains the code for training a Hallucination classifier using the Roberta-base model trained on Augmented data and uses Focal Loss
+    
+    - Task 3
+    
+        -DialogueGenrationV2_Focal_Loss.ipynb: This Jupyter Notebook contains the code for training a dialogue generation model using the T5-base model and uses Focal Loss
+
 BEGIN_Classifier_Roberta_Sequence.ipynb: This Jupyter Notebook contains the code for training a classifier using the Roberta-base model to classify BEGIN embeddings in the  dataset.
 
 BEGIN_Classifier_bert_base_uncased.ipynb: This Jupyter Notebook contains the code for training a classifier using the bert-base-uncased model to classify BEGIN embeddings in the dataset.
