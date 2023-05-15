@@ -21,22 +21,23 @@ MileStone3
         - Hallucination_Classification_Dice_Loss.ipynb: This Jupyter Notebook contains the code for training a Hallucination classifier using the Roberta-base model trained the original data and uses Dice Loss. This model has oscillating loss and 0 F1 score.
 
         - Hallucination_Classification_Focal_Loss.ipynb: TThis Jupyter Notebook contains the code for training a Hallucination classifier using the Roberta-base model trained on Augmented data and uses Focal Loss
-    
+    -Task 2
+        -BEGIN_Classifier_Roberta_Sequence.ipynb: This Jupyter Notebook contains the code for training a classifier using the Roberta-base model to classify BEGIN embeddings in the  dataset.
+
+    -BEGIN_Classifier_bert_base_uncased.ipynb: This Jupyter Notebook contains the code for training a classifier using the bert-base-uncased model to classify BEGIN embeddings in the dataset.
+
+    -BEGIN_Classifier_testing.ipynb: This Jupyter Notebook contains the code for testing the trained BEGIN classifier and evaluating its performance.
+
+    -DialogueGenerationV2.ipynb: This Jupyter Notebook contains the code for training a dialogue generation model using the T5-base model.
+
+    -VRM_Classifier_Roberta_Sequence.ipynb: This Jupyter Notebook contains the code for training a classifier using the Roberta-base model to classify VRM embeddings in the  dataset.
+
+    -VRM_Classifier_bert_base_cased.ipynb: This Jupyter Notebook contains the code for training a classifier using the bert-base-cased model to classify VRM embeddings in the  dataset.
     - Task 3
     
         -DialogueGenrationV2_Focal_Loss.ipynb: This Jupyter Notebook contains the code for training a dialogue generation model using the T5-base model and uses Focal Loss
 
-BEGIN_Classifier_Roberta_Sequence.ipynb: This Jupyter Notebook contains the code for training a classifier using the Roberta-base model to classify BEGIN embeddings in the  dataset.
 
-BEGIN_Classifier_bert_base_uncased.ipynb: This Jupyter Notebook contains the code for training a classifier using the bert-base-uncased model to classify BEGIN embeddings in the dataset.
-
-BEGIN_Classifier_testing.ipynb: This Jupyter Notebook contains the code for testing the trained BEGIN classifier and evaluating its performance.
-
-DialogueGenerationV2.ipynb: This Jupyter Notebook contains the code for training a dialogue generation model using the T5-base model.
-
-VRM_Classifier_Roberta_Sequence.ipynb: This Jupyter Notebook contains the code for training a classifier using the Roberta-base model to classify VRM embeddings in the  dataset.
-
-VRM_Classifier_bert_base_cased.ipynb: This Jupyter Notebook contains the code for training a classifier using the bert-base-cased model to classify VRM embeddings in the  dataset.
 
 
 The code in this repository is based on the research and findings presented in the paper "FAITHDIAL: A Faithful Benchmark for Information-Seeking Dialogue." We acknowledge the authors of the paper for their valuable insights and contributions.
